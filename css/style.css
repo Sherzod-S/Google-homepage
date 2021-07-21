@@ -17,17 +17,56 @@
 
 .profile_photo { 
     border-radius: 50%;
-    margin: 5px;
+    margin: 7px;
 }
 
 /* google apps  */
 
 .google_app { 
-    padding: 10px;
+    padding: 15px 10px 0 10px;
+}
+.google_app1 { 
+    padding: 12px 15px 0 15px;
+}
+a { 
+    color: #270505;
+    text-decoration: none;
+    font-size: 16px; 
+}
+a:hover { 
+    text-decoration: underline;
 }
 .google_logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+}
+
+/* google footer  section */
+
+
+.google_footer { 
+    background-color:  #f0f0f0;
+    width: auto;
+    height: 55px;
+}
+.google_footer ul{ 
+    display: flex;
+    width: auto;
+    height: 52px;
+    list-style-type: none;
+}
+.google_footer2 { 
+    margin: 350px 0 0 20px;
+    
+}
+.google_footer2 a { 
+    color: #70757A;
+}
+.google_nav2 a{ 
+    padding-left: 535px;
+}
+.google_footer li { 
+    padding: 20px
 }
